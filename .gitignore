@@ -1,2 +1,27 @@
-# created by virtualenv automatically
-.venv/Lib
+# Виртуальные окружения Python
+venv/
+.venv/
+ENV/
+env/
+
+# Файлы настроек среды PyCharm / JetBrains
+.idea/
+*.iml
+
+# Байткод и кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Переменные окружения и секреты (ключи API)
+.env
+.env.*
+!.env.example
+
+# Базы данных и временные файлы SQLite/PostgreSQL
+*.sqlite3
+*.db
